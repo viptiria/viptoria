@@ -37,7 +37,7 @@ a {
 .navbar{
 background: rgba(43, 25, 14, 0.8);
 }
-.navbar-brand {
+.vip {
   font-family: 'Times new roman', serif;
   font-size: 2em;
 }
@@ -45,6 +45,7 @@ background: rgba(43, 25, 14, 0.8);
  color: #FFA500;
 }
 .navbar-nav .nav-link:hover {
+border-radius: 8px;
 background:  #d0a772}
 
 /*==================
@@ -194,7 +195,7 @@ carousel
 -------------------------------------------------------------------*/
 
 .menu-box{
-  padding: 70px 0px;
+  padding: 5px 0px;
 }
 
 .heading-title{
@@ -323,9 +324,7 @@ carousel
 .carousel-control-next{
   right: 0px;
 }
-.carousel-indicators{
-  top: 600px;
-}
+
 
 .text-warning{
   color: #d0a772 !important;
@@ -342,12 +341,10 @@ carousel
   .carousel-control-next{
     right: 0px;
   }
-  .carousel-indicators{
-    top: 600px;
-  }
+  
 }
 
-#reviews .carousel-control-prev{
+ .carousel-control-prev{
   background: #d0a772;
   color: #ffffff;
   display: block;
@@ -356,14 +353,14 @@ carousel
   height: 50px;
   top: 50%;
   font-size: 28px;
-  opacity: 1;
+  opacity: 8;
 }
-#reviews .carousel-control-prev:hover{
+.carousel-control-prev:hover{
   background: #010101;
   color: #ffffff;
 }
 
-#reviews .carousel-control-next{
+.carousel-control-next{
   background: #d0a772;
   color: #ffffff;
   display: block;
@@ -372,13 +369,15 @@ carousel
   height: 50px;
   top: 50%;
   font-size: 28px;
-  opacity: 1;
+  opacity: 8;
 }
-#reviews .carousel-control-next:hover{
+.carousel-control-next:hover{
   background: #010101;
   color: #ffffff;
 }
-
+#carousel-with-lb>.carousel-indicators {
+  background: #d0a772;
+}
 
 /*------------------------------------------------------------------
     Contact info
@@ -668,7 +667,9 @@ carousel
     transition: opacity 0.2s ease-out;
   font-size: 30px;
 }
-
+.xc {
+  height: 4em;
+}
 @media (pointer: coarse) and (hover: none) {
 	.about-us{
     font-size: 1em;
@@ -680,16 +681,19 @@ carousel
     display: none;
   }*/
   .log img {
-  width: 90%;
+  width: 80%;
   } 
+  .navbar-brand {
+  font-size: 1em;
+}
   .carousel-item {
     background-position: 100% 100%;
     background-size: cover;
   }
-  .navbar-brand {
-  font-size: 1em;
-}
-.gallery-box {
+ .display-4 {
+  font-size: 1.2em;
+  }
+.gallery-box  {
   display: none;
 }
 }
