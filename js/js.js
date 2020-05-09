@@ -10,3 +10,15 @@ $(document).ready(function () {
             $('.navbar-collapse.show').collapse('hide');
         });
     });
+/* ..............................................
+    BaguetteBox
+    ................................................. */
+	
+	baguetteBox.run('.tz-gallery', {
+		animation: 'fadeIn',
+		noScrollbars: true
+	});
+	
+	
+	
+	
